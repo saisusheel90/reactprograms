@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      {/*<div>
+      <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -32,11 +32,11 @@ function App() {
         </div>
       <div>
         <Sample />
-      </div>*/}
-     {/* <div>
+      </div>
+     <div>
       <h1>Welcome to My Website</h1>
       <Nav />
-    </div>*/}
+    </div>
     </>
   )
 }
