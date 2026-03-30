@@ -1,0 +1,50 @@
+body{
+  margin:0;
+  padding:0;
+}
+.navbar {
+  background-color: #333;
+  padding: 20px;
+  padding-right:590px;
+  width: 100%;
+  margin-left:-300px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: white;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: lightsalmon;
+  color: black;
+  list-style: none;
+  padding: 20px;
+  width: 150px;
+}
+
+.dropdown-menu li {
+  padding: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li:hover {
+  background: darkgray;
+}
